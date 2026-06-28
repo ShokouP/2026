@@ -60,9 +60,13 @@ metadata:
 ### 取用方式
 
 需仿某家、某体、某代风格时：
-1. **WebFetch 该卷 JSON**（如 `https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/全唐诗/poet.tang.0.json`）
-2. 取该家三五首原作，**读其笔法、意象、气口**——非记标签，是察其具体如何下字
-3. 仿其神理，不是抄其辞藻
+1. **首选 WebFetch** 该卷 JSON（如 `https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/master/全唐诗/poet.tang.0.json`）
+2. **若 WebFetch 不可用**（网络/代理限制）→ 转用 **WebSearch** 搜"chinese-poetry [朝代/诗人名] [诗题]"获取原诗文本后再取法
+3. **若均不可用** → 如实告知无法取库，凭已知此家此体特征尽力为之，但**在交付时明确标注"未取库验证"**
+4. 取该家三五首原作，**读其笔法、意象、气口**——非记标签，是察其具体如何下字
+5. 仿其神理，不是抄其辞藻
+
+> ⚠️ WebFetch 在某些代理环境下无法抓取 raw.githubusercontent.com。此时勿反复重试，立即切换 WebSearch 继续。
 
 > 仿李白，不是写"狂""酒""月"三字堆叠，是取《蜀道难》《将进酒》读其句法之纵横、节奏之跌宕，再运己意。仿王维，取《辋川集》察其"空""静"如何以具体景物写出（"空山不见人"——空是状景，非抒情）。
 
