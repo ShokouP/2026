@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "skills": {
+    "humanizer-zh": {
+      "source": "op7418/Humanizer-zh",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "dede9681d9fea5caed2fb9d88656af3024c9ec0136fc833415ffc6e16d762429"
+    },
+    "unslop": {
+      "source": "MohamedAbdallah-14/unslop",
+      "sourceType": "github",
+      "skillPath": "skills/unslop/SKILL.md",
+      "computedHash": "34da80dec58b12f631cd8a4c0dc85cc1d106fd6286c2ba5c2ffea258ecb413b8"
+    },
+    "unslop-commit": {
+      "source": "MohamedAbdallah-14/unslop",
+      "sourceType": "github",
+      "skillPath": "skills/unslop-commit/SKILL.md",
+      "computedHash": "9b4084efdf7f741302c87009e7dc72877edbeb3bd1ef7817894fdd54cabecdde"
+    },
+    "unslop-file": {
+      "source": "MohamedAbdallah-14/unslop",
+      "sourceType": "github",
+      "skillPath": "unslop/SKILL.md",
+      "computedHash": "22c213908e4ddc766b889923f8807c798c3f9c03673572ab0e47b79d5d79dc2a"
+    },
+    "unslop-help": {
+      "source": "MohamedAbdallah-14/unslop",
+      "sourceType": "github",
+      "skillPath": "skills/unslop-help/SKILL.md",
+      "computedHash": "1081a498b731cafb2f6f2c595aadeb1fb63d405f7315ae5cb78bfe9c3c92ce42"
+    },
+    "unslop-reasoning": {
+      "source": "MohamedAbdallah-14/unslop",
+      "sourceType": "github",
+      "skillPath": "skills/unslop-reasoning/SKILL.md",
+      "computedHash": "dfafde2c43696b5c5383db25132fdfe44ea4bd943bca9cdb5cf9d8dd5d6e56b6"
+    },
+    "unslop-review": {
+      "source": "MohamedAbdallah-14/unslop",
+      "sourceType": "github",
+      "skillPath": "skills/unslop-review/SKILL.md",
+      "computedHash": "baed8397b58db79edec8120309e1e9ec3b2caa0fdbc7949f24b815c84af125fe"
+    }
+  }
+}
