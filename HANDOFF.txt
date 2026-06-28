@@ -1,0 +1,166 @@
+================================================================
+  2026claudecode 工作区交接文件
+  日期：2026-06-28 (updated 16:30)
+  用户：ShokouP (GitHub: ShokouP, Email: wangyian524@gmail.com)
+================================================================
+
+一、工作区概览
+================================================================
+
+  位置：D:\2026claudecode
+  Git 仓库：https://github.com/ShokouP/2026.git (已连接，branch: main)
+  用户身份：准大一新工科生，小学四年级接触过 C++/Python 后中断
+
+二、目录结构
+================================================================
+
+  D:\2026claudecode\
+  ├── .git/
+  ├── .claude/              ← Claude Code 项目设置
+  ├── .agents/skills/       ← 已安装的 17 个 Skill（详见第三节）
+  ├── .gitignore
+  ├── CLAUDE.md             ← 工作区说明
+  ├── learning/             ← 学习目录
+  │   ├── python/day01/     ← Day01: 链表 Linked List（Python版，归档）
+  │   │   ├── linked_list.py
+  │   │   └── NOTES.md
+  │   ├── cpp/day01/        ← C++ 学习（空，待填）
+  │   ├── leetcode/         ← ★ LeetCode 题解（当前主线）
+  │   │   ├── LC206.cpp     ← 反转链表（C++ 零基础教学文件）
+  │   │   └── LC206.py      ← 反转链表（Python 旧版，归档）
+  │   └── notes/            ← 学习笔记
+  ├── projects/             ← 正式项目（空，待填）
+  ├── experiments/          ← 实验/原型（空，待填）
+  ├── notes/                ← 开发笔记
+  │   └── claude-code-writing-skills-guide.md  ← 写作 Skill 使用指南
+  └── scripts/              ← 复用脚本（空，待填）
+
+三、已安装 Skill（17 个）
+================================================================
+
+  写作增效类：
+  ├── humanizer-zh          ★★★ 中文去 AI 味，基于维基百科 AI 检测体系
+  ├── humanizer             ★★ 英文去 AI 味（humanizer-zh 的原版）
+  ├── unslop                ★★★ 通用去 AI-ism，支持 subtle/balanced/full/voice-match/anti-detector
+  ├── unslop-file           ★★ 文件去 AI 味
+  ├── unslop-commit         ★★ Git commit 去套路
+  ├── unslop-review         ★★ 代码审查去 AI 味
+  ├── unslop-reasoning      ★  推理文本去 AI 味
+  └── unslop-help           ★  unslop 帮助
+
+  设计/演示类：
+  ├── huashu-design         ★★ "花叔Design"，用 HTML 做高保真原型/幻灯片/动画/设计评审
+  │                            包含 40 种风格库、3D 概览墙、反 AI slop 体系
+
+  学习/编码类：
+  ├── academic-research-skills  ★★ 学术研究全流程（论文→出版）
+  ├── karpathy-skills           ★★ Andrej Karpathy 启发的编码行为改善
+  ├── mattpocock-skills         ★  TypeScript 编码最佳实践
+  ├── anthropic-skills          ★  官方 skill 模板
+  └── alirezarezvani-skills     ★  商业运营全栈技能包
+
+  效率/规划类：
+  ├── caveman               ★★★ Token 极致压缩，wenyan 模式用文言输出
+  └── planning-with-files   ★★ 用文件做长期规划，Manus 风格
+
+  注：★★★ = 最常用，★★ = 会用，★ = 按需用
+
+四、当天完成事项
+================================================================
+
+  1. 创建 D:\2026claudecode 工作区
+  2. 初始化 Git 仓库，配置全局身份 (ShokouP / wangyian524@gmail.com)
+  3. 创建 GitHub 仓库 ShokouP/2026，连接远程并首次 push
+  4. 安装 17 个 Claude Code Skill
+  5. Day01 链表（Python 版，已跑通）→ 归档到 learning/python/day01/
+  6. 编写 writing skills 使用指南
+  7. 完成 2 次 commit 并 push
+  8. ★ 主线转向 C++：从 LeetCode 出发边学边练
+  9. LC206 反转链表（C++ 零基础教学文件，已写已跑通）
+     - C++ 编译: 需在 MSYS2 bash 里跑 g++（Git Bash 中: g++ -std=c++17 LC206.cpp）
+     - 环境: C:\msys64\mingw64\bin\g++.exe (GCC 16.1.0)
+
+五、Git 历史
+================================================================
+
+  b60943b  初始化 Claude Code 工作区
+  e44bd4d  安装 Humanizer-zh 和 unslop 写作增效 Skill，添加使用指南
+
+  注意：.agents/skills/ 和 .claude/skills/ 下的内容尚未提交（用户说"不提交"）
+
+六、当前进度：LeetCode 实战（C++ 主线）
+================================================================
+
+  语言切换: 从 Python 转向 C++
+  学习方法: 从 LeetCode 题目出发，零基础边学边练
+  编译器: C:\msys64\mingw64\bin\g++.exe (GCC 16.1.0, C++17)
+          使用方法: /c/msys64/mingw64/bin/g++ -std=c++17 -o xxx.exe xxx.cpp
+
+  已完成:
+  - LC206 反转链表 (LC206.cpp): 零基础教学文件
+    · 从「什么是链表」「什么是指针」开始讲
+    · 反转算法 4 句口诀: 拍照→掉头→挪→再挪
+    · 含完整步骤图解和慢动作回放
+    · 已编译跑通 ✓
+
+  待做（下一题）:
+  - 用户决定下一题（建议 LC21 合并有序链表 或 LC141 环形链表）
+
+  LeetCode 路线参考 (easy → medium):
+  1. LC206 反转链表 ★已做
+  2. LC21 合并有序链表（学 dummy head 技巧）
+  3. LC141 环形链表（学 fast/slow 指针）
+  4. LC876 链表中点（fast/slow 变体）
+  5. LC83 去重（遍历+跳连）
+
+七、用户偏好和设置
+================================================================
+
+  - 编辑器：未安装 VS Code，建议安装
+  - ★ 编程语言：C++（主线），Python（已归档）
+  - C++ 标准：C++17
+  - 学习方法：LeetCode 实战 + 边学边练
+  - Claude Code 设置：
+    · effortLevel: high
+    · 代理环境：http://127.0.0.1:15721
+    · caveman wenyan 模式已启用
+  - 写作偏好：使用 humanizer-zh 和 unslop full 模式
+  - Git 提交使用：用户未主动要求则不提交
+
+八、新会话启动建议
+================================================================
+
+  进入新会话后，先执行：
+    cd D:/2026claudecode
+    git status
+
+  C++ 编译方法（重要）:
+    用 MSYS2 bash 运行:
+      /c/msys64/usr/bin/bash.exe -c '
+        export TMP=/tmp
+        export PATH="/mingw64/bin:/usr/bin:$PATH"
+        cd /d/2026claudecode/learning/leetcode/
+        g++ -std=c++17 -Wall -o program.exe program.cpp
+      '
+
+  然后告诉 Claude：
+    "继续 LeetCode C++ 学习，我们做完了 LC206，现在做下一题"
+    或者
+    "这是交手文档，请读后继续"
+
+九、重要 URL
+================================================================
+
+  GitHub 仓库：https://github.com/ShokouP/2026
+  Claude Code 文档：https://code.claude.com/docs/
+  Humanizer-zh：https://github.com/op7418/Humanizer-zh
+  unslop：https://github.com/MohamedAbdallah-14/unslop
+  caveman：https://github.com/JuliusBrussee/caveman
+  huashu-design：https://github.com/ (搜索 huashu-design)
+  academic-research-skills：https://github.com/Imbad0202/academic-research-skills
+  karpathy-skills：https://github.com/ (搜索 karpathy-skills)
+  planning-with-files：https://github.com/OthmanAdi/planning-with-files
+
+================================================================
+  交接完毕
+================================================================

@@ -12,3 +12,4 @@ node_modules/
 .claude/plans/
 .claude/.last-cleanup
 .claude/.last-update-result.json
+.vs/
